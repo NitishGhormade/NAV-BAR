@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar > div >a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    cursor: pointer;
+}
+
+.navbar > img {
+    width: 10%;
+}
+
+.navbar > div {
+    display: flex;
+    gap: 50px;
+}
+
+.sp {
+    position: relative;
+}
+
+.input{
+   text-align:center;
+}
